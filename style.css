@@ -1,4 +1,4 @@
-body {
+body head {
     font-family: "Avenir Next";
 }
 
@@ -13,8 +13,14 @@ body {
 .header-logo {
     font-size: 36px;
     float: left;
-    padding: 20px 30px;
+    padding-left: 30px;
     text-align: center;
+    display: flex;
+	align-items: center;
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 .header-list {
@@ -42,6 +48,15 @@ body {
 .main {
 }
 
+.contact {
+    display: flex;
+	align-items: center;
+}
+
+.email {
+    height: 25px;
+    margin-left: 10px;
+}
 
 .footer {
     background-color: #ceccf3;
